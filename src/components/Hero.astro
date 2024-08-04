@@ -11,21 +11,20 @@ import { Image } from 'astro:assets';
 	<div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
 		<div>
 			<h1 class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl">
-				Hi! My name is <span class="text-orange">Jane Doe</span> and I am a web developer based in New
-				York.
+				Hey, me llamo <span class="text-orange">Sergio Lanchazo</span> y soy un desarrollador Back End que vive en Barcelona.
 			</h1>
 		</div>
 		<div class="mb-10">
 			<Button style={'primary'} size={'lg'} class={'flex'} name="learn more">Learn more</Button>
 		</div>
 	</div>
-	<div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
+	<div data-testid="hero-img" class="mb-10 ml-2 flex w-2/4 items-center justify-center rounded">
 		<Image
 			src={heroImage}
 			alt="Coding girl"
 			format="png"
-			width={600}
-			height={600}
+			width={500}
+			height={500}
 			loading="eager"
 		/>
 	</div>
